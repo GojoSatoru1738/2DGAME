@@ -23,6 +23,7 @@ gameStates[`menu`] =function(){
 		{
 			//Changes to the game state
 			gameStates.changeState(`level1`)
+			sounds.play(`Resident`, true)
 		}
 
 		//Hover Effect Graffic
